@@ -1,0 +1,923 @@
+ /*********************************Navigatie********************************/
+
+
+.navbar.navbar-expand-lg.navbar-light{
+    background-color:  #7BCCB5;
+    font-family: Dosis, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    top: 0;
+    width: 100%;
+    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+    
+}
+
+
+.navbar-brand {
+    width: 80px;
+    margin-right: 30px;
+}
+/*zoekbalk navigatie*/
+
+.btn.btn-primary.btn-md {
+    border-radius: 20px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.form-control.mr-sm-2 {
+    border-radius: 50px;
+    
+}
+
+.btn.btn-outline-light {
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.btn.btn-light.product.btn {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color:#FFFFFF;
+    background-color: #7BCCB5;
+    width:120px;
+    height: 40px;
+    cursor: pointer;
+    
+    
+
+}
+
+
+.btn.btn-light {
+    border-radius: 20px;
+    color:#7BCCB5;
+   width:120px;
+   height: 40px;
+   cursor: pointer;
+   margin-left:600px;
+   margin-top: 250px;
+}
+
+/*tekst home*/
+
+h1 {
+    font-size: 80px;
+}
+
+.col-12.col-md-6 {
+    padding-left:50px;
+    padding-top: 80px;
+    padding-right: 50px;
+    color:#78574D;
+}
+
+
+ /*********************************Footer********************************/
+
+footer {
+    width: 100%;
+    background-color: #78574D;
+    padding:4%;
+    margin-top: 100px;
+    margin-bottom:50px;
+    text-align: center;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.titels {
+    color:#7BCCB5;
+    margin-bottom: 25px;
+    line-height: 50px;
+    margin-top: 80px;
+}
+
+.tekst {
+    line-height: 30px;
+    text-align: center;
+    
+}
+
+/* social media icons*/
+
+.fa {
+    padding: 20px;
+    margin: 5px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+     text-decoration: none;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background:#7BCCB5;
+    color:#FFFFFF; 
+   margin-bottom: 30px; 
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #7BCCB5;
+    color:#FFFFFF;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #7BCCB5;
+    color:#FFFFFF;
+}
+
+/* YouTube */
+.fa-youtube {
+    background: #7BCCB5;
+    color:#FFFFFF;
+}
+
+.About {
+    color:#FFF;
+}
+
+.About:hover {
+    color:#7BCCB5;
+    text-decoration: none;
+}
+
+
+.navbar.fixed-bottom {
+    background-color:#78574D;
+    color:white;
+}
+
+
+/* einde footer */
+
+ /*********************************Home pagina********************************/
+
+/* begin slider */
+
+.carousel.slide {
+   padding-top: 70px;
+   padding-bottom: 70px;
+   background-color: #7BCCB5;
+   text-align: center;
+   margin-top:100px;
+}
+
+.container.text-center {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    color:#78574D;
+    line-height: 30px;
+    font-size: 20px;
+
+}
+
+
+
+.container-fluid {
+    padding:0px;
+    border:none;
+}
+
+.container.text-center.lead {
+    padding-right: 60px;
+    color: #78574D;
+}
+
+/* Zoom effect image*/
+
+.zoom:hover img {
+    transform: scale(1.1);
+    
+}
+
+.zoom img {
+    transition: all 0.3s;
+}
+
+
+.carousel-item {
+    color:#FFFFFF;
+    border-radius: 10em;
+    background-color: #CEF6EC;
+}
+
+
+    /* titels header*/
+
+h3 {
+   font-size: 40px;
+   margin-bottom: 50px;
+   margin-top: -20px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.card-title {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.card-img2 {
+    width: 350px;
+   margin-bottom: 80px;
+}
+
+
+h2 {
+    color:#7BCCB5;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.verloop {
+    color:#7BCCB5;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.kleur-product {
+    background-color: #E0F8F7
+}
+
+h4 {
+    position: center;
+}
+
+  /* stappen van bestelling*/
+
+#progress {
+    padding: 0;
+    list-style-type: none;
+    font-size: 20px;
+    clear: both;
+    line-height: 2em;
+    margin: 0 -1px;
+    text-align: center;
+}
+
+#progress li {
+    float: left;
+    padding: 10px 30px 10px 40px;
+    background: #7BCCB5;
+    color: #fff;
+    position: relative;
+    width: 32%;
+    margin: 0 1px;
+    border:none;
+}
+
+#progress li:before {
+    content: '';
+    border-left: 30px solid #fff;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+#progress li:after {
+    content: '';
+    border-left: 30px solid #7BCCB5;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 20;
+}
+
+#progress li.active {
+    background: #78574D;
+}
+
+#progress li.active:after {
+    border-left-color: #78574D;
+}
+
+/* klanten getuigen*/
+
+.carousel-item.active.carousel-item {
+    height: 200px;
+    width: 950px;
+    margin-left:200px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.display-3 {
+    font-size: 20px;
+    padding-top: 40px;
+    color:#78574D;
+    padding-bottom: 20px;
+    
+}
+
+
+/* tekst tevreden klanten getuigen*/
+.container.text-center.titel {
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.lead {
+    color:#78574D;
+    font-weight: bold;
+}
+
+
+/* button bij bekijk product*/
+
+.button {
+    border-radius: 50px;
+    background-color: #7BCCB5;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 20px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/*button  voor geef je mening*/
+
+.button2 {
+    border-radius: 50px;
+    background-color: #7BCCB5;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+    padding-right: 20px;
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.img-fluid {
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.About2 {
+    color: #78574D;
+}
+
+.button2 {
+    margin-left: 50px;
+
+}
+
+.titels.text-center {
+    margin-top:0px;
+}
+
+
+ /*********************************PAGINA product********************************/
+
+.h3 titel {
+    margin-bottom: 20px;
+
+}
+
+
+/*button bestel nu productpagina*/
+
+.button4 {
+    border-radius: 50px;
+    background-color: #7BCCB5;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .button4 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button4 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button4:hover span {
+    padding-right: 20px;
+  }
+  
+  .button4:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+/*button klik hier op header*/
+  .button43 {
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #7BCCB5;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .button43 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .row2 {
+      margin-top: 250px;
+  }
+  .button43 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button43:hover span {
+    padding-right: 20px;
+  }
+  
+  .button43:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .jumbotron.jumbotron-fluid {
+      background-color: #CEF6EC;
+      border-radius: 70px;
+      padding-top: 40px;
+      padding-bottom: 30px;
+      margin-bottom: 80px;
+      margin-left: 0px;
+      padding-right: 30px;
+}
+
+
+  .h3.titel {
+      color:#7BCCB5;
+      margin-bottom: 12px;
+}
+
+  .h3.titel20 {
+    color:#78574D;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    margin-left:30px;
+  }
+
+  .h3.titel1 {
+    color:#7BCCB5;
+    margin-bottom: 12px;
+}
+
+.h3.titel3 {
+    margin-top: 50px;
+    color:#7BCCB5;
+
+}
+
+
+  .streep {
+      text-decoration: line-through;
+  }
+
+
+
+  .featurette-divider2 {
+      margin-top: 100px;
+      margin-bottom: 5px;
+  }
+
+    
+  /*klantenbeoordeling*/
+
+/*stijl sterren klantenboordeling*/
+  
+  .rating { 
+    border: none;
+    float: left;
+  }
+  
+  .rating > input { display: none; } 
+  .rating > label:before { 
+    margin: 5px;
+    font-size: 1.25em;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+  }
+  
+  .rating > .half:before { 
+    content: "\f089";
+    position: absolute;
+  }
+  
+  .rating > label { 
+    color: #ddd; 
+   float: right; 
+  }
+  
+  /*Beoordeel zelf productt highlight sterren bij hover**/
+  
+  .rating > input:checked ~ label, /* show gold star when clicked */
+  .rating:not(:checked) > label:hover, /* hover current star */
+  .rating:not(:checked) > label:hover ~ label { color: #7BCCB5;  } /* hover previous stars in list */
+  
+  .rating > input:checked + label:hover, /* hover current star when changing rating */
+  .rating > input:checked ~ label:hover,
+  .rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+  .rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+
+
+   /*algemene klantenbeoordeling**/
+  .checked {
+    color: orange;
+    padding-left: 30px;
+    margin:-15px;
+}
+
+.checked2 {
+    padding-left: 30px;
+    margin:-15px;
+}
+
+.lead {
+    margin-left: 30px;
+    line-height: 20px;
+}
+
+
+ /*********************************PAGINA Bestellen********************************/
+
+.table>tbody>tr>td, .table>tfoot>tr>td{
+    vertical-align: middle;
+}
+@media screen and (max-width: 600px) {
+    table#cart tbody td .form-control{
+		width:20%;
+		display: inline !important;
+	}
+	.actions .btn{
+		width:36%;
+		margin:1.5em 0;
+	}
+	
+	.actions .btn-info{
+		float:left;
+	}
+	.actions .btn-danger{
+        float:right;
+	}
+	
+	table#cart thead { display: none; }
+	table#cart tbody td { display: block; padding: .6rem; min-width:320px;}
+	table#cart tbody tr td:first-child { background: #333; color: #fff; }
+	table#cart tbody td:before {
+		content: attr(data-th); font-weight: bold;
+		display: inline-block; width: 8rem;
+	}
+	
+	
+	
+	table#cart tfoot td{display:block; }
+	table#cart tfoot td .btn{display:block;}
+	
+}
+
+
+.btn.btn-info.btn-sm {
+    border-radius: 20px;
+    padding:1px;
+    background-color: #7BCCB5;
+    border:none;
+}
+
+.btn.btn-danger.btn-sm {
+    border-radius: 20px;
+    padding:1px;
+}
+
+.btn.btn-warning {
+    padding:5px;
+}
+
+/*Button verder naar bestellen**/
+
+.button45 {
+    border-radius: 50px;
+    background-color: #7BCCB5;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .button45 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button45 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button45:hover span {
+    padding-right: 20px;
+  }
+  
+  .button45:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  /*Button verder winkelen**/
+
+  .button46 {
+    border-radius: 50px;
+    background-color: #7BCCB5;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .button46 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button46 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+  }
+  
+  .button46:hover span {
+    padding-left: 20px;
+  }
+  
+  .button46:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
+
+  .fa.fa-shopping-cart {
+      margin-top: -20px;
+      margin-left: -10px;
+      margin-right: -10px;
+  }
+
+  .container2 {
+      padding-bottom:50px;
+      margin-left: 90px;
+  }
+
+
+ /*tekstkleur tabel**/
+  th {
+      color:#78574D;
+  }
+
+  td {
+      color:#78574D;
+  }
+
+
+
+  /*********************************PAGINA contact********************************/
+
+  .form-control {
+      border-radius: 50px;
+  }
+
+  .col-12.col-lg-6 {
+      padding: 50px;
+      border-radius: 50px;
+      color:#FFFFFF;
+      position: center;
+
+  }
+
+  /*Button verzenden**/
+  .button7 {
+    border-radius: 50px;
+    background-color: #7BCCB5;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  
+  .button7 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button7 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button7:hover span {
+    padding-right: 20px;
+  }
+  
+  .button7:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+h3.contact {
+    color:#7BCCB5;
+    margin-right: 50px;
+}
+
+
+
+  /*********************************PAGINA Bestel********************************/
+
+.col-6 {
+    color:#78574D;
+}
+
+#exampleFormControlSelect1 {
+    color:#78574D;
+}
+
+.breadcrumb {
+    margin-bottom: 70px;
+}
+
+
+.col-12 {
+    margin-bottom: 20px;
+}
+
+.col-10 {
+    margin-bottom: 20px;
+}
+
+.col-2 {
+    margin-bottom: 20px;
+}
+
+
+
+  /*********************************PAGINA Bedank********************************/
+
+  
+.jumbotron {
+    background-color: #CEF6EC;
+}
+
+.bruin {
+    color:#78574D;
+}
+
+.bruin2 {
+    color:#78574D;
+    font-weight: bold;
+}
+
+.wagentje {
+    margin-left: 40px;
+}

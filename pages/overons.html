@@ -1,0 +1,62 @@
+---
+layout   : default
+permalink: overons
+# Custom Page Variables
+# ─────────────────────
+title: Winkelmandje
+---
+
+
+
+<div class="container">
+        <table id="cart" class="table table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th style="width:50%">Product</th>
+                        <th style="width:10%">Prijs</th>
+                        <th style="width:8%">Aantal</th>
+                        <th style="width:22%" class="text-center">Totaal</th>
+                        <th style="width:10%"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-th="Product">
+                        <div class="row">
+                                <div class="col-6">
+                                <img src="{{ site.baseurl }}/images/BarkBot.png" class="img-fluid" alt="BarkBot">
+                                </div>
+                             <div class="col-sm-2 hidden-xs"></div>
+                             <div class="col-6">
+                            </div>
+                                <div class="col-sm-10">
+                                    <h4 class="nomargin">BarkBot Deluxe 207</h4>
+                                    <p>Op voorraad. Voor 23.59 uur besteld, morgen gratis geleverd.</p>
+                                </div>
+                             </div>
+                        </td>
+                        <td data-th="Price">€ 59.99</td>
+                        <td data-th="Quantity">
+                        <input type="number" class="form-control text-center" value="1">
+                        </td>
+                        <td data-th="Subtotal" class="text-center">59.99</td>
+                        <td class="actions" data-th="">
+                        <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                        <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>								
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                  
+                    <tr>
+                        <td><button type="button" class="button46" onclick="window.location.href='ons-product.html'"><span>Verder winkelen</span></button></td>
+                        <td colspan="2" class="hidden-xs"></td>
+                        <td class="hidden-xs text-center"><strong>Totaal € 59.99</strong></td>
+                        <td><button type="button" class="button45" onclick="window.location.href='bestel.html'"><span>Verder naar bestellen</span></button></td>
+                     </tr>
+                </tfoot>
+        </table>
+</div>
+
+
+

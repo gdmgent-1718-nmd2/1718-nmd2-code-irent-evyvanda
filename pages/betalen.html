@@ -1,0 +1,72 @@
+---
+layout   : default
+permalink: bestel/betalen
+# Custom Page Variables
+# ─────────────────────
+title: Betalen
+---
+<div class="col-12">
+    <nav aria-label="breadcrumb" role="navigation">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="{{ "/bestel/index.html" | relative_url }}">Bestel</a></li>
+            <li class="breadcrumb-item"><a href="{{ "/bestel/gegevens.html" | relative_url }}">Gegevens</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Betalen</li>
+        </ol>
+    </nav>
+</div>
+
+<div class="col-12 col-lg-6 order-lg-2">
+    <div class="row">
+        <div class="col-6 col-md-3">
+            <img src="{{ site.baseurl }}/images/BarkBot.png" class="img-fluid" alt="homefotonaam">
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h3 class="h3 titel">BarkBot Deluxe 207</h3>
+                </div>
+                <div class="col-12 col-md-6 text-right">
+                    <p>€ 59,99 /dag</p>     
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 col-lg-6 order-lg-1">
+    <h3>Keuze betaalmogelijkheid</h3>
+    <div class="form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+            <img src="{{ site.baseurl }}/images/bancontact.png" class="img-fluid" alt="bancontact">
+        </label>
+    </div>
+    <div class="form-check">
+        <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <img src="{{ site.baseurl }}/images/paypal.png" class="img-fluid" alt="paypal">
+        </label>
+    </div>
+    <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <img src="{{ site.baseurl }}/images/visa2.png" class="img-fluid" alt="paypal">
+            </label>
+        </div>
+</div>
+
+<div class="col-12 order-lg-3">
+    <div class="row">
+        <div class="col-12 col-lg-4 order-lg-2 offset-lg-4">
+            <a class="button4" href="{{ "/bestel/bedank.html" | relative_url }}" role="button"><span>Bestelling voltooien</a></span>
+        </div>
+
+
+
+
+
+        <div class="col-12 col-lg-4 order-lg-1">
+                <a class="button46" href="{{ "/bestel/gegevens.html" | relative_url }}" role="button"><span>Terug naar gegevens</a></span>      
+            </div>
+    </div>
+</div>

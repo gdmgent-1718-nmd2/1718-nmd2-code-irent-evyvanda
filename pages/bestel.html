@@ -1,0 +1,62 @@
+---
+layout   : default
+permalink: bestel
+# Custom Page Variables
+# ─────────────────────
+title: Bestellen
+---
+
+<!-- breadcrumbs -->
+<div class="col-12">
+    <nav aria-label="breadcrumb" role="navigation">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">Bestel</li>
+            <li class="breadcrumb-item"><a href="#">Gegevens</a></li>
+            <li class="breadcrumb-item"><a href="#">Betalen</a></li>
+        </ol>
+    </nav>
+</div>
+<!-- einde breadcrumbs -->
+
+<!-- foto -->
+<div class="col-6">
+    <img src="{{ site.baseurl }}/images/BarkBot.png" class="img-fluid" alt="BarkBot">
+</div>
+<!-- einde foto -->
+
+<!-- info -->
+<div class="col-6">
+    <div class="row">
+        <div class="col-12 col-lg-4">
+            <h3 class="h3 titel">Barkbot Deluxe 207</h3>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <form>
+                <div class="form-group">
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <label for="exampleFormControlSelect1">Dag (en)</label>
+                </div>
+            </form>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+            <p>€ 59,99 /dag</p> 
+        </div>
+    </div>
+    <div class="col-12 d-sm-none d-none d-sm-block">    
+        <a class="button4" href="{{ "/bestel/gegevens.html" | relative_url }}" role="button"><span>Naar gegevens</a></span>
+    </div>
+</div>
+<!-- einde info -->
+
+<!-- button doorverwijzen naar gegevens -->
+
+<div class="col-12 d-block d-sm-none">    
+    <a class="button4" href="{{ "/bestel/gegevens.html" | relative_url }}" role="button"><span>Naar gegevens</a></span>
+</div>
+<!-- einde button doorverwijzen naar gegevens -->
